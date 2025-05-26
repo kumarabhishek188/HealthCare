@@ -2,8 +2,6 @@
 
 A static, responsive React dashboard template mimicking a healthcare monitoring interface. Built with Create React App and CSS Modules.
 
-## Deployment Link: healthcare-dashboard-self-xi.vercel.app
-
 ## Features
 
 - **Sidebar Navigation**: Organized General and Tools sections with icons and a labeled Settings button.
@@ -14,6 +12,14 @@ A static, responsive React dashboard template mimicking a healthcare monitoring 
 - **Calendar View**: Monthly grid with time slots and appointment cards, each with icons.
 - **Upcoming Schedule**: List of upcoming appointments grouped by day, each with title, time, and icons.
 - **Responsive Design**: Uses Flexbox and CSS Modules for pixel-perfect layout and adaptability across desktop/tablet/mobile.
+
+## Deployment
+
+📦 **Here is the deployment link:**
+
+```bash
+https://healthcare-dashboard-self-xi.vercel.app
+```
 
 ## Getting Started
 
