@@ -1,0 +1,25 @@
+/* src/components/SimpleAppointmentCard/SimpleAppointmentCard.module.css */
+.card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--light-blue);
+  padding: 12px 16px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 8px;
+}
+.icon {
+  color: var(--primary-blue);
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-weight: 600;
+}
+.time {
+  font-size: 0.75rem;
+  color: var(--text-gray);
+}

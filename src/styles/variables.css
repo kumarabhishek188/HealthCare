@@ -1,0 +1,16 @@
+/* src/styles/variables.css */
+:root {
+  --bg-color: #f5f8fc;
+  --card-bg: #ffffff;
+  --primary-blue: #4f46e5;
+  --light-blue: #eef2ff;
+  --text-dark: #1f2937;
+  --text-gray: #6b7280;
+  --border-radius: 12px;
+  --shadow: 0 2px 8px rgba(0,0,0,0.05);
+
+  /* Added status colors */
+  --green: #22c55e;
+  --orange: #f59e0b;
+  --bone-color: #f97316; /* new bone status color */
+}

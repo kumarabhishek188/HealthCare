@@ -1,0 +1,55 @@
+/* src/components/ActivityFeed/ActivityFeed.module.css */
+
+.card {
+  background: var(--card-bg);
+  padding: 16px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  min-height: 190px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 0.875rem;
+  color: var(--text-gray);
+}
+
+.chart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 80px; /* Reserve vertical space */
+  padding: 0 8px;
+}
+
+.barWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.bar {
+  width: 8px;
+  border-radius: var(--border-radius);
+  transition: height 0.3s ease, background-color 0.3s ease;
+}
+
+.label {
+  margin-top: 8px;
+  font-size: 0.75rem;
+  color: var(--text-gray);
+}

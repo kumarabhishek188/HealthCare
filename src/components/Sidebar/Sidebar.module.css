@@ -1,0 +1,77 @@
+/* src/components/Sidebar/Sidebar.module.css */
+.sidebar {
+  width: 240px;
+  background: var(--card-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px 16px;
+  box-shadow: var(--shadow);
+}
+
+.logo {
+  font-size: 1.5rem;
+  margin-bottom: 24px;
+  color: var(--primary-blue);
+}
+
+.section {
+  margin-bottom: 16px;
+}
+
+.heading {
+  font-size: 0.875rem;
+  color: var(--text-gray);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+
+.linkItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+  cursor: pointer;
+  color: var(--text-dark);
+}
+
+.linkIcon {
+  color: var(--text-gray);
+}
+
+/* Replace the old .bottom block with a styled button */
+.settingsBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  color: var(--text-dark);
+  font-weight: 500;
+  cursor: pointer;
+  padding: 8px 0;
+}
+
+.settingsBtn:hover .linkIcon,
+.settingsBtn:hover span {
+  color: var(--primary-blue);
+}
+
+
+.logo {
+  font-size: 1.5rem;
+  margin-bottom: 24px;
+  /* remove color here if you have one—we’ll color spans individually */
+}
+
+.health {
+  color: var(--primary-blue);
+}
+
+.care {
+  color: var(--text-dark);
+}

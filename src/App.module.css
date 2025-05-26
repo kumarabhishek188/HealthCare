@@ -1,0 +1,83 @@
+/* src/App.module.css */
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .mainArea {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    display: flex;
+    flex: 1;
+    padding: 24px;
+    gap: 24px;
+    overflow-y: auto;
+  }
+  
+  .leftColumn {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: stretch;
+  }
+  
+  .rightColumn {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .overview {
+    display: flex;
+    gap: 24px;
+  }
+  
+
+  /* Header row above Anatomy & Cards */
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;  /* space below the header */
+}
+
+.sectionTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.sectionSubtitle {
+  font-size: 1rem;
+  color: var(--text-gray);
+}
+/* src/App.module.css */
+
+/* ...existing styles... */
+
+.sectionSubtitle {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1rem;
+  color: var(--text-gray);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.sectionSubtitle .chevron {
+  margin-left: 4px;
+  color: var(--text-gray);
+  transition: transform 0.2s;
+}
+
+/* Optional: rotate the chevron on hover */
+.sectionSubtitle:hover .chevron {
+  transform: rotate(180deg);
+}

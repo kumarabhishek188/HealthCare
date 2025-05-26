@@ -1,0 +1,13 @@
+.container {
+    background: var(--card-bg);
+    padding: 16px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+  }
+  .group {
+    margin-bottom: 16px;
+  }
+  .dayHeading {
+    font-size: 0.875rem;
+    margin-bottom: 8px;
+  }

@@ -1,0 +1,67 @@
+.container {
+    background: var(--card-bg);
+    padding: 16px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .nav button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0 4px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  .dayCell {
+    background: var(--light-blue);
+    padding: 8px;
+    border-radius: var(--border-radius);
+  }
+  .dayLabel {
+    font-size: 0.75rem;
+    color: var(--text-gray);
+  }
+  .date {
+    font-weight: 600;
+    margin: 4px 0;
+  }
+  .times {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .time {
+    background: var(--primary-blue);
+    color: #fff;
+    padding: 2px 4px;
+    border-radius: var(--border-radius);
+    font-size: 0.625rem;
+  }
+  .appointments {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .appCard {
+    background: var(--light-blue);
+    padding: 8px 12px;
+    border-radius: var(--border-radius);
+  }
+  .appTitle {
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .appTime, .appDoctor {
+    font-size: 0.75rem;
+  }
