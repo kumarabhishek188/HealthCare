@@ -28,7 +28,7 @@ A static, responsive React dashboard template mimicking a healthcare monitoring 
    ```bash
    npm start
    ```
-## Here is the deployment link: https://your-deployment-url.com
+## Here is the deployment link: healthcare-dashboard-self-xi.vercel.app
 
 
 
